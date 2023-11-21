@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container1 {
+    padding: 70px 0;
+    border: 3px solid blue;
+  }
+  .container2 {
+    padding: 70px 0;
+    border: 3px solid red;
+  }
+
+  .container3 {
+    padding: 70px 0;
+    border: 3px solid green;
+  }
