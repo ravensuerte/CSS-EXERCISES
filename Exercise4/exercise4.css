@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    float: left;
+  }
+  
+  #box1 {
+    background-color: #ffcccb;
+  }
+  
+  #box2 {
+    background-color: #b3e0ff;
+  }
+  
+  #box3 {
+    background-color: #d0f4de;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    body {
+      flex-direction: column;
+    }
+  
+    .box {
+      float: none;
+      margin: 10px 0; 
+    }
+  }
